@@ -31,7 +31,7 @@ function logIn(){
                     successAlert.classList.remove("d-none");
                     wrongAlert.classList.add("d-none");
                     localStorage.setItem("sessionUsername",JSON.stringify(userContainer[i].name));
-                    window.location="../home.html";
+                    window.location="home.html";
                     break;
                 }
                 else{
