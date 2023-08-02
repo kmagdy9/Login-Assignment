@@ -172,7 +172,7 @@ function validationPassword(){
 }
 
 function signIn(){
-    window.location="/index.html";
+    window.location="index.html";
 }
 
 
