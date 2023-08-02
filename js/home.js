@@ -14,12 +14,12 @@ document.getElementById("welcome").innerHTML=cartona;
 
 function smartLogin(){
 
-    window.location="../home.html";
+    window.location="home.html";
 }
 
 function logOut(){
 
-    window.location="../index.html";
+    window.location="index.html";
     localStorage.removeItem("sessionUsername");
 
 }
